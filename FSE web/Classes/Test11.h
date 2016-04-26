@@ -1,0 +1,256 @@
+//
+//  Test1.h
+//  CoreData
+//
+//  Created by sparsh on 30/03/12.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface Test11 : NSManagedObject {
+	
+	
+	NSString *Name;
+	NSString *Address;
+	
+	NSMutableDictionary *url;
+	
+	
+	NSString * Calories_Fat;
+	NSString * Child_Nutrition_Flag;
+	NSString * Calories;
+	NSString * Pallet_Hi;
+	NSString * Total_Diet_Fiber;
+	NSString * Carb_RDI;
+	NSString * Calcium_RDI;
+	NSString * Width;
+	NSString * Total_Sugar;
+	NSString * Width_UOM;
+	NSString * Protein;
+	NSString * Storage_Temp_To;
+	NSString * Storage_Temp_To_UOM;
+	NSString * Vitamin_C_RDI;
+	NSString * Serving_Suggestion;
+	NSString * Height;
+	NSString * Cholestrol;
+	NSString * More_Info;
+	NSString * Trans_Fatty_Acid;
+	NSString * Total_Diet_Fiber_RDI;
+	NSString * Net_Weight;
+	NSString * Cholestrol_RDI;
+	NSString * Nxt_Lower_Lvl_Pack_Qty_CIR;
+	NSString * Brand_Owner_GLN;
+	NSString * Long_Name;
+	NSString * Info_Provider;
+	NSString * Gross_Weight;
+	NSString * Sat_Fat_RDI;
+	NSString * Brand_Name;
+	NSString * Benefits;
+	NSString * General_Desc;
+	NSString * Net_Content_UOM;
+	NSString * Pallet_Ti;
+	NSString * GPC_Code;
+	NSString * Ingredients;
+	NSString * Iron_RDI;
+	NSString * Gr_Weight_UOM;
+	NSString * Total_Fat;
+	NSString * Storage_Temp_From_UOM;
+	NSString * Sodium_RDI;
+	NSString * Depth;
+	NSString * Manufacturer;
+	NSString * GTIN;
+	NSString * GPC_Description;
+	NSString * Avg_Serving;
+	NSString * Vitamin_A_RDI;
+	NSString * Carbohydrates;
+	NSString * Manufacturer_GLN;
+	NSString * Net_Content;
+	NSString * Shelf_Life;
+	NSString * Brand_Owner;
+	NSString * Volume;
+	NSString * Country_Origin_of_Product;
+	NSString * Info_Provider_GLN;
+	NSString * Net_Weight_UOM;
+	NSString * Total_Fat_RDI;
+	NSString * Volume_UOM;
+	NSString * Depth_UOM;
+	NSString * Sodium;
+	NSString * Shelf_Life_UOM;
+	NSString * Prep_Cooking_Sugg;
+	NSString * Pack_Storage_Info;
+	NSString * Storage_Temp_From;
+	NSString * Saturated_Fat;
+	NSString * MPC;
+	NSString * Height_UOM;
+	NSString * Kosher;
+	NSString * GRP_ID;
+	NSString * PRD_ID;
+	NSString * TPY_ID;
+	NSString * Biotin_UOM;
+	NSString * Calcium_UOM;
+	NSString * Calories_Fat_UOM;
+	NSString * Calories_UOM;
+	NSString * Carbohydrates_UOM;
+	NSString * Chloride_UOM;
+	NSString * Cholestrol_UOM;
+	NSString * Chromium_UOM;
+	NSString * Copper_UOM;
+	NSString * Folate_UOM;
+	NSString * Insoluble_Fiber_UOM;
+	NSString * Iodine_UOM;
+	NSString * Iron_UOM;
+	NSString * Magnesium_UOM;
+	NSString * Manganese_UOM;
+	NSString * Molybdenum_UOM;
+	NSString * Monosaturated_Fat_UOM;
+	NSString * Niacin_UOM;
+	NSString * Other_Carbohydrates_UOM;
+	NSString * PRD_IMAGE_LINK;
+	NSString * Pantothenic_UOM;
+	NSString * Phosphorous_UOM;
+	NSString * Polyunsaturated_Fat_UOM;
+	NSString * Potassium_UOM;
+	NSString * Protein_UOM;
+	NSString * Riboflovin_B2_UOM;
+	NSString * Saturated_Fat_UOM;
+	NSString * Selenium_UOM;
+	NSString * Sodium_UOM;
+	NSString * Soluble_Fiber_UOM;
+	NSString * Thiamin_UOM;
+	NSString * Total_Diet_Fiber_UOM;
+	NSString * Total_Fat_UOM;
+	NSString * Total_Sugar_UOM;
+	NSString * Trans_Fatty_Acid_UOM;
+	NSString * Vitamin_A_UOM;
+	NSString * Vitamin_B12_UOM;
+	NSString * Vitamin_B6_UOM;
+	NSString * Vitamin_C_UOM;
+	NSString * Vitamin_D_UOM;
+	NSString * Vitamin_E_UOM;
+	NSString * Vitamin_K_UOM;
+	NSString * Zinc_UOM;
+
+}
+@property(nonatomic, retain)NSString *Name;
+@property(nonatomic, retain)NSString *Address;
+
+@property(nonatomic, retain)NSMutableDictionary *url;
+
+
+@property(nonatomic, retain)NSString * Calories_Fat;
+@property(nonatomic, retain)NSString * Child_Nutrition_Flag;
+@property(nonatomic, retain)NSString * Calories;
+@property(nonatomic, retain)NSString * Pallet_Hi;
+@property(nonatomic, retain)NSString * Total_Diet_Fiber;
+@property(nonatomic, retain)NSString * Carb_RDI;
+@property(nonatomic, retain)NSString * Calcium_RDI;
+@property(nonatomic, retain)NSString * Width;
+@property(nonatomic, retain)NSString * Total_Sugar;
+@property(nonatomic, retain)NSString * Width_UOM;
+@property(nonatomic, retain)NSString * Protein;
+@property(nonatomic, retain)NSString * Storage_Temp_To;
+@property(nonatomic, retain)NSString * Storage_Temp_To_UOM;
+@property(nonatomic, retain)NSString * Vitamin_C_RDI;
+@property(nonatomic, retain)NSString * Serving_Suggestion;
+@property(nonatomic, retain)NSString * Height;
+@property(nonatomic, retain)NSString * Cholestrol;
+@property(nonatomic, retain)NSString * More_Info;
+@property(nonatomic, retain)NSString * Trans_Fatty_Acid;
+@property(nonatomic, retain)NSString * Total_Diet_Fiber_RDI;
+@property(nonatomic, retain)NSString * Net_Weight;
+@property(nonatomic, retain)NSString * Cholestrol_RDI;
+@property(nonatomic, retain)NSString * Nxt_Lower_Lvl_Pack_Qty_CIR;
+@property(nonatomic, retain)NSString * Brand_Owner_GLN;
+@property(nonatomic, retain)NSString * Long_Name;
+@property(nonatomic, retain)NSString * Info_Provider;
+@property(nonatomic, retain)NSString * Gross_Weight;
+@property(nonatomic, retain)NSString * Sat_Fat_RDI;
+@property(nonatomic, retain)NSString * Brand_Name;
+@property(nonatomic, retain)NSString * Benefits;
+@property(nonatomic, retain)NSString * General_Desc;
+@property(nonatomic, retain)NSString * Net_Content_UOM;
+@property(nonatomic, retain)NSString * Pallet_Ti;
+@property(nonatomic, retain)NSString * GPC_Code;
+@property(nonatomic, retain)NSString * Ingredients;
+@property(nonatomic, retain)NSString * Iron_RDI;
+@property(nonatomic, retain)NSString * Gr_Weight_UOM;
+@property(nonatomic, retain)NSString * Total_Fat;
+@property(nonatomic, retain)NSString * Storage_Temp_From_UOM;
+@property(nonatomic, retain)NSString * Sodium_RDI;
+@property(nonatomic, retain)NSString * Depth;
+@property(nonatomic, retain)NSString * Manufacturer;
+@property(nonatomic, retain)NSString * GTIN;
+@property(nonatomic, retain)NSString * GPC_Description;
+@property(nonatomic, retain)NSString * Avg_Serving;
+@property(nonatomic, retain)NSString * Vitamin_A_RDI;
+@property(nonatomic, retain)NSString * Carbohydrates;
+@property(nonatomic, retain)NSString * Manufacturer_GLN;
+@property(nonatomic, retain)NSString * Net_Content;
+@property(nonatomic, retain)NSString * Shelf_Life;
+@property(nonatomic, retain)NSString * Brand_Owner;
+@property(nonatomic, retain)NSString * Volume;
+@property(nonatomic, retain)NSString * Country_Origin_of_Product;
+@property(nonatomic, retain)NSString * Info_Provider_GLN;
+@property(nonatomic, retain)NSString * Net_Weight_UOM;
+@property(nonatomic, retain)NSString * Total_Fat_RDI;
+@property(nonatomic, retain)NSString * Volume_UOM;
+@property(nonatomic, retain)NSString * Depth_UOM;
+@property(nonatomic, retain)NSString * Sodium;
+@property(nonatomic, retain)NSString * Shelf_Life_UOM;
+@property(nonatomic, retain)NSString * Prep_Cooking_Sugg;
+@property(nonatomic, retain)NSString * Pack_Storage_Info;
+@property(nonatomic, retain)NSString * Storage_Temp_From;
+@property(nonatomic, retain)NSString * Saturated_Fat;
+@property(nonatomic, retain)NSString * MPC;
+@property(nonatomic, retain)NSString * Height_UOM;
+@property(nonatomic, retain)NSString * Kosher;
+@property(nonatomic, retain)NSString * GRP_ID;
+@property(nonatomic, retain)NSString * PRD_ID;
+@property(nonatomic, retain)NSString * TPY_ID;
+@property(nonatomic, retain)NSString * Biotin_UOM;
+@property(nonatomic, retain)NSString * Calcium_UOM;
+@property(nonatomic, retain)NSString * Calories_Fat_UOM;
+@property(nonatomic, retain)NSString * Calories_UOM;
+@property(nonatomic, retain)NSString * Carbohydrates_UOM;
+@property(nonatomic, retain)NSString * Chloride_UOM;
+@property(nonatomic, retain)NSString * Cholestrol_UOM;
+@property(nonatomic, retain)NSString * Chromium_UOM;
+@property(nonatomic, retain)NSString * Copper_UOM;
+@property(nonatomic, retain)NSString * Folate_UOM;
+@property(nonatomic, retain)NSString * Insoluble_Fiber_UOM;
+@property(nonatomic, retain)NSString * Iodine_UOM;
+@property(nonatomic, retain)NSString * Iron_UOM;
+@property(nonatomic, retain)NSString * Magnesium_UOM;
+@property(nonatomic, retain)NSString * Manganese_UOM;
+@property(nonatomic, retain)NSString * Molybdenum_UOM;
+@property(nonatomic, retain)NSString * Monosaturated_Fat_UOM;
+@property(nonatomic, retain)NSString * Niacin_UOM;
+@property(nonatomic, retain)NSString * Other_Carbohydrates_UOM;
+@property(nonatomic, retain)NSString * PRD_IMAGE_LINK;
+@property(nonatomic, retain)NSString * Pantothenic_UOM;
+@property(nonatomic, retain)NSString * Phosphorous_UOM;
+@property(nonatomic, retain)NSString * Polyunsaturated_Fat_UOM;
+@property(nonatomic, retain)NSString * Potassium_UOM;
+@property(nonatomic, retain)NSString * Protein_UOM;
+@property(nonatomic, retain)NSString * Riboflovin_B2_UOM;
+@property(nonatomic, retain)NSString * Saturated_Fat_UOM;
+@property(nonatomic, retain)NSString * Selenium_UOM;
+@property(nonatomic, retain)NSString * Sodium_UOM;
+@property(nonatomic, retain)NSString * Soluble_Fiber_UOM;
+@property(nonatomic, retain)NSString * Thiamin_UOM;
+@property(nonatomic, retain)NSString * Total_Diet_Fiber_UOM;
+@property(nonatomic, retain)NSString * Total_Fat_UOM;
+@property(nonatomic, retain)NSString * Total_Sugar_UOM;
+@property(nonatomic, retain)NSString * Trans_Fatty_Acid_UOM;
+@property(nonatomic, retain)NSString * Vitamin_A_UOM;
+@property(nonatomic, retain)NSString * Vitamin_B12_UOM;
+@property(nonatomic, retain)NSString * Vitamin_B6_UOM;
+@property(nonatomic, retain)NSString * Vitamin_C_UOM;
+@property(nonatomic, retain)NSString * Vitamin_D_UOM;
+@property(nonatomic, retain)NSString * Vitamin_E_UOM;
+@property(nonatomic, retain)NSString * Vitamin_K_UOM;
+@property(nonatomic, retain)NSString * Zinc_UOM;
+
+@end
